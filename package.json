@@ -1,0 +1,22 @@
+{
+    "name": "abe-front-end",
+    "version": "1.0.0",
+    "description": "front-end code for Abhishek's blog",
+    "main": "index.js",
+    "scripts": {
+        "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AbhishekAmin/abe-front-end.git"
+    },
+    "author": "Abhishek Amin",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/AbhishekAmin/abe-front-end/issues"
+    },
+    "homepage": "https://github.com/AbhishekAmin/abe-front-end#readme",
+    "dependencies": {
+        "node-sass": "^4.12.0"
+    }
+}
