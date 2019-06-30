@@ -1,8 +1,16 @@
 // Widescreens
-@include mediaXL {}
+@include mediaXL {
+    .projects {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
 
 // Desktops & Laptops
-@include mediaLg {}
+@include mediaLg {
+    .projects {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
 
 // Tablets and Small Laptops
 @include mediaMd {
@@ -46,6 +54,9 @@
         grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
         grid-template-columns: 1fr;
     }
+    .projects {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 // Smartphones
@@ -64,5 +75,8 @@
         .sm-heading {
             font-size: 1rem; // reduced from 2rem
         }
+    }
+    .projects {
+        grid-template-columns: 1fr;
     }
 }
